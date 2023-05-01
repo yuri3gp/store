@@ -24,4 +24,4 @@ Este projeto requer as seguintes dependências:
 - ...
 Você pode instalar todas as dependências de uma só vez usando o arquivo `requirements.txt`. Para fazer isso, basta executar o comando:
 - $ pip install -r requirements.txt
-Isso irá instalar todas as dependências listadas no arquivo `requirements.txt`.
+- Isso irá instalar todas as dependências listadas no arquivo `requirements.txt`.
