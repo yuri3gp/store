@@ -1,6 +1,6 @@
 # Store
 
-Este projeto é uma aplicação Python para...
+Este projeto é uma aplicação Python para treinar as possibilidades do flask utilizando sqlite e arquivos estáticos
 
 ## Instalação
 1. Clone este repositório:
