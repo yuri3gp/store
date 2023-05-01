@@ -10,7 +10,7 @@ $ cd nome-do-repositorio
 3. Crie um ambiente virtual Python:
 $ python -m venv myenv
 4. Ative o ambiente virtual:
-$ source myenv/bin/activate
+$  ./myenv/Scripts/activate
 5. Instale as dependências do projeto usando o `requirements.txt`:
 $ pip install -r requirements.txt
 Este comando irá instalar todas as dependências listadas no arquivo `requirements.txt`.
