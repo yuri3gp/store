@@ -1,8 +1,6 @@
 from flask import Flask, request, render_template
 import sqlite3
-
 app = Flask(__name__)
-
 @app.route('/')
 def index():
     conn = sqlite3.connect('store.db')
@@ -20,8 +18,6 @@ def index():
     data = cursor.fetchall()
     conn.close()
     return render_template('index.html', data=data)
-
-
 @app.route('/enviar', methods=['POST'])
 def enviar():
     conn = sqlite3.connect('store.db')
@@ -33,7 +29,5 @@ def enviar():
     conn.commit()
     conn.close()
     return dados
-
-
 if __name__ == '__main__':
     app.run(debug=True)
